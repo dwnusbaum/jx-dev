@@ -18,7 +18,7 @@ pipelineConfig:
                 args: ["-c", 'echo "Sleeping for ${SLEEP_DURATION}s"']
               - command: sh
                 args: ["-c", "sleep $SLEEP_DURATION"]
-          - name: "Deploy"
+          - name: "Deploy2"
             steps:
               - command: sh
-                args: ["-c", 'echo "Deploying with pipeline version $PIPELINE_VERSION"']
+                args: ["-c", 'echo "Deploying2 with pipeline version $PIPELINE_VERSION"']
