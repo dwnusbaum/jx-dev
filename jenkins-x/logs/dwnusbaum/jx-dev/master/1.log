@@ -1,25 +1,25 @@
-Step: build-step-credential-initializer-zvkzk:
+Step: build-step-credential-initializer-62kcv:
 
-{"level":"warn","ts":1554212646.6539464,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1554212646.6545417,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
-Step: build-step-create-dir-workspace-t8l48:
+{"level":"warn","ts":1554212784.4840355,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554212784.4857848,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Step: build-step-create-dir-workspace-c67jk:
 
-{"level":"warn","ts":1554212648.7314343,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212648.736373,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/workspace\""}
-Step: build-step-source-copy-workspace-j4k76:
+{"level":"warn","ts":1554212785.760155,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212785.7618628,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/workspace\""}
+Step: build-step-source-copy-workspace-pfpsk:
 
-{"level":"warn","ts":1554212649.8373456,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212650.0255573,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /pvc/build/workspace/. /workspace/workspace\""}
+{"level":"warn","ts":1554212786.7681532,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212786.8613515,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /pvc/build/workspace/. /workspace/workspace\""}
 Step: build-step-place-tools:
 
 Step: build-step-step2:
 
 Deploying with pipeline version AFTER-UPDATE
-Step: build-step-source-mkdir-*********-**-dev-master-v5fsn:
+Step: build-step-source-mkdir-*********-**-dev-master-6cq77:
 
-{"level":"warn","ts":1554212663.937092,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212663.968256,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /pvc/deploy/workspace\""}
-Step: build-step-source-copy-*********-**-dev-master-xzccs:
+{"level":"warn","ts":1554212789.8392088,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212789.8414617,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /pvc/deploy/workspace\""}
+Step: build-step-source-copy-*********-**-dev-master-fkt5s:
 
-{"level":"warn","ts":1554212664.954716,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212664.966961,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /workspace/workspace/. /pvc/deploy/workspace\""}
+{"level":"warn","ts":1554212790.8658864,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212790.8769462,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /workspace/workspace/. /pvc/deploy/workspace\""}
