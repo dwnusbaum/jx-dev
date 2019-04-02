@@ -1,0 +1,25 @@
+Step: build-step-credential-initializer-r9fkk:
+
+{"level":"warn","ts":1554212635.8571742,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554212635.8580673,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Step: build-step-create-dir-workspace-rcczp:
+
+{"level":"warn","ts":1554212636.399023,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212636.4020944,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/workspace\""}
+Step: build-step-source-copy-workspace-j8vbh:
+
+{"level":"warn","ts":1554212637.404636,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212637.623678,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /pvc/build/workspace/. /workspace/workspace\""}
+Step: build-step-place-tools:
+
+Step: build-step-step2:
+
+Deploying with pipeline version AFTER-UPDATE
+Step: build-step-source-mkdir-*********-**-dev-master-96zdz:
+
+{"level":"warn","ts":1554212640.4786606,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212640.4824226,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /pvc/deploy/workspace\""}
+Step: build-step-source-copy-*********-**-dev-master-7nkwv:
+
+{"level":"warn","ts":1554212641.4889367,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554212641.5027025,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /workspace/workspace/. /pvc/deploy/workspace\""}
