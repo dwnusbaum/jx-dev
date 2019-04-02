@@ -1,25 +1,21 @@
-Step: build-step-credential-initializer-m9mzv:
+Step: build-step-credential-initializer-qtz6x:
 
-{"level":"warn","ts":1554212812.8301244,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1554212812.83165,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
-Step: build-step-create-dir-workspace-db6xn:
+Unable to retrieve container logs for docker://77cff1eee2401748a9ac37cd9f82af6e579579c20ce4f22bb31744ec6597d56b
+Step: build-step-create-dir-workspace-m6rwp:
 
-{"level":"warn","ts":1554212813.920525,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212813.9215217,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/workspace\""}
-Step: build-step-source-copy-workspace-z8llg:
+failed to open log file "/var/log/pods/4cf05c91-555b-11e9-a0f2-42010a8e012c/build-step-create-dir-workspace-m6rwp/0.log": open /var/log/pods/4cf05c91-555b-11e9-a0f2-42010a8e012c/build-step-create-dir-workspace-m6rwp/0.log: no such file or directory
+Step: build-step-source-copy-workspace-bdjkj:
 
-{"level":"warn","ts":1554212814.9354718,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212815.0509126,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /pvc/build/workspace/. /workspace/workspace\""}
+failed to open log file "/var/log/pods/4cf05c91-555b-11e9-a0f2-42010a8e012c/build-step-source-copy-workspace-bdjkj/0.log": open /var/log/pods/4cf05c91-555b-11e9-a0f2-42010a8e012c/build-step-source-copy-workspace-bdjkj/0.log: no such file or directory
 Step: build-step-place-tools:
 
+failed to open log file "/var/log/pods/4cf05c91-555b-11e9-a0f2-42010a8e012c/build-step-place-tools/0.log": open /var/log/pods/4cf05c91-555b-11e9-a0f2-42010a8e012c/build-step-place-tools/0.log: no such file or directory
 Step: build-step-step2:
 
-Deploying with pipeline version AFTER-UPDATE
-Step: build-step-source-mkdir-*********-**-dev-master-9hhg6:
+Unable to retrieve container logs for docker://b8b8c66906453f50d966af46f9776916921b3d49efd0de4d641d9238d16e8442
+Step: build-step-source-mkdir-*********-**-dev-master-s884w:
 
-{"level":"warn","ts":1554212817.9995532,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212818.0068583,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /pvc/deploy/workspace\""}
-Step: build-step-source-copy-*********-**-dev-master-hzcj7:
+Unable to retrieve container logs for docker://12f0edaf71799d14791b4f7c4c12776fa6e189889295ef28bc5954143db9620e
+Step: build-step-source-copy-*********-**-dev-master-sfdq4:
 
-{"level":"warn","ts":1554212819.0193796,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1554212819.039266,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /workspace/workspace/. /pvc/deploy/workspace\""}
+Unable to retrieve container logs for docker://41820d132cca9a037ca75dd5c5181f534f0639e5d60fae6af208eef8860c082d
